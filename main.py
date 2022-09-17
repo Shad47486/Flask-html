@@ -8,7 +8,7 @@ def homepage_styles():
     return render_template('homepage_withCSS.html')
 
 
-@app.route('/patient')
+@app.route('/patient') #/patients has the picture was having trouble implementing a picture in the homepage
 def homepage_styles_layout():
     return render_template('homepage_CSS_LO.html')
 
